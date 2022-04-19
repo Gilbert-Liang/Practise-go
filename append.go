@@ -56,5 +56,5 @@ func test(f func([]Node, ...Node) []Node) {
 
 func main() {
 	test(appendInt)
-	//test(append) why error
+	test(append) //why error
 }
